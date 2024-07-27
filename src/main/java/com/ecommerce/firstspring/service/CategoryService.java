@@ -1,16 +1,15 @@
 package com.ecommerce.firstspring.service;
 
-import com.ecommerce.firstspring.model.Category;
-
-import java.util.List;
+import com.ecommerce.firstspring.payload.CategoryDTO;
+import com.ecommerce.firstspring.payload.CategoryResponse;
 
 public interface CategoryService {
 
-  public List<Category> getCategories();
+  CategoryResponse getCategories(Integer pageNumber, Integer pageSize, String sortBy, String sortOrder);
 
-  public void addCategory(Category category);
+  CategoryDTO addCategory(CategoryDTO categoryDTO);
 
-  public String deleteCategory(Long categoryId);
+  CategoryDTO updateCategory(Long categoryId, CategoryDTO categoryDTO);
 
-  public String updateCategory(Long categoryId, Category category);
+  CategoryDTO deleteCategory(Long categoryId);
 }
