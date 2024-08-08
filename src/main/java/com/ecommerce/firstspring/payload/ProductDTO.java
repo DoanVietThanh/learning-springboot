@@ -1,6 +1,5 @@
 package com.ecommerce.firstspring.payload;
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,6 +11,7 @@ public class ProductDTO {
   private Long productId;
   private String productName;
   private String image;
+  private String description;
   private Integer quantity;
   private double price;
   private double discount;
