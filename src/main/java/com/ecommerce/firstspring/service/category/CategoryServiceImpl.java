@@ -1,4 +1,4 @@
-package com.ecommerce.firstspring.service;
+package com.ecommerce.firstspring.service.category;
 
 import com.ecommerce.firstspring.exceptions.ApiException;
 import com.ecommerce.firstspring.exceptions.ResourceNotFoundException;

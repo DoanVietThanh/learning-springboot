@@ -3,7 +3,7 @@ package com.ecommerce.firstspring.controller;
 import com.ecommerce.firstspring.config.AppConstants;
 import com.ecommerce.firstspring.payload.CategoryDTO;
 import com.ecommerce.firstspring.payload.CategoryResponse;
-import com.ecommerce.firstspring.service.CategoryService;
+import com.ecommerce.firstspring.service.category.CategoryService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
